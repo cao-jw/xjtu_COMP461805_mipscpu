@@ -1,0 +1,233 @@
+$date
+	Tue Jan 31 10:40:34 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var reg 6 ! Op [5:0] $end
+$var reg 1 " clk $end
+$scope module w $end
+$var wire 1 " CLK $end
+$var wire 6 # Op [5:0] $end
+$var wire 4 $ S [3:0] $end
+$var wire 1 % RegWr $end
+$var wire 1 & RegDst $end
+$var wire 1 ' PCWrCond $end
+$var wire 1 ( PCWr $end
+$var wire 2 ) PCSrc [1:0] $end
+$var wire 4 * NS [3:0] $end
+$var wire 1 + MemtoReg $end
+$var wire 1 , MemWr $end
+$var wire 1 - MemRd $end
+$var wire 1 . IorD $end
+$var wire 1 / IRWr $end
+$var wire 2 0 ALUSrcB [1:0] $end
+$var wire 1 1 ALUSrcA $end
+$var wire 2 2 ALUOp [1:0] $end
+$scope module cu $end
+$var wire 6 3 Op [5:0] $end
+$var wire 4 4 S [3:0] $end
+$var reg 2 5 ALUOp [1:0] $end
+$var reg 1 1 ALUSrcA $end
+$var reg 2 6 ALUSrcB [1:0] $end
+$var reg 1 / IRWr $end
+$var reg 1 . IorD $end
+$var reg 1 - MemRd $end
+$var reg 1 , MemWr $end
+$var reg 1 + MemtoReg $end
+$var reg 4 7 NS [3:0] $end
+$var reg 2 8 PCSrc [1:0] $end
+$var reg 1 ( PCWr $end
+$var reg 1 ' PCWrCond $end
+$var reg 1 & RegDst $end
+$var reg 1 % RegWr $end
+$upscope $end
+$scope module sr $end
+$var wire 1 " CLK $end
+$var wire 4 9 NS [3:0] $end
+$var reg 4 : S [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 :
+b1 9
+b0 8
+b1 7
+b1 6
+b0 5
+b0 4
+b100011 3
+b0 2
+01
+b1 0
+1/
+0.
+1-
+0,
+0+
+b1 *
+b0 )
+1(
+0'
+0&
+0%
+b0 $
+b100011 #
+0"
+b100011 !
+$end
+#10
+b10 *
+b10 7
+b10 9
+0(
+0-
+0/
+b11 0
+b11 6
+b1 $
+b1 4
+b1 :
+1"
+#20
+0"
+#30
+b11 *
+b11 7
+b11 9
+b10 0
+b10 6
+11
+b10 $
+b10 4
+b10 :
+1"
+#40
+0"
+#50
+b100 *
+b100 7
+b100 9
+1.
+1-
+b0 0
+b0 6
+01
+b11 $
+b11 4
+b11 :
+1"
+#60
+0"
+#70
+b0 *
+b0 7
+b0 9
+0.
+0-
+1+
+1%
+b100 $
+b100 4
+b100 :
+1"
+#80
+0"
+#90
+b1 *
+b1 7
+b1 9
+1(
+1-
+1/
+0+
+b1 0
+b1 6
+0%
+b0 $
+b0 4
+b0 :
+1"
+#100
+0"
+#110
+b10 *
+b10 7
+b10 9
+0(
+0-
+0/
+b11 0
+b11 6
+b1 $
+b1 4
+b1 :
+1"
+#120
+0"
+#130
+b11 *
+b11 7
+b11 9
+b10 0
+b10 6
+11
+b10 $
+b10 4
+b10 :
+1"
+#140
+0"
+#150
+b100 *
+b100 7
+b100 9
+1.
+1-
+b0 0
+b0 6
+01
+b11 $
+b11 4
+b11 :
+1"
+#160
+0"
+#170
+b0 *
+b0 7
+b0 9
+0.
+0-
+1+
+1%
+b100 $
+b100 4
+b100 :
+1"
+#180
+0"
+#190
+b1 *
+b1 7
+b1 9
+1(
+1-
+1/
+0+
+b1 0
+b1 6
+0%
+b0 $
+b0 4
+b0 :
+1"
+#200
+0"
